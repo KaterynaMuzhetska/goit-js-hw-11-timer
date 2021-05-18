@@ -46,5 +46,5 @@ class CountdownTimer {
 
 new CountdownTimer({
   selector: "#timer-1",
-  targetDate: new Date("June 26, 21"),
+  targetDate: new Date("June 1, 21"),
 });
