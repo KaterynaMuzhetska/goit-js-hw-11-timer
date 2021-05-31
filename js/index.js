@@ -9,7 +9,6 @@ class CountdownTimer {
   }
   start() {
     setInterval(() => {
-    
       const targetTime = new Date(this.targetDate).getTime();
       const currentTime = Date.now();
       const deltaTime = targetTime - currentTime;
